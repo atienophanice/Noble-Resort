@@ -1,0 +1,154 @@
+body{
+    background-color: azure;
+}
+nav ul li{
+    display:inline-block;
+    list-style-type: none;
+    padding:10px;
+}
+nav ul{
+    text-align: center;
+}
+nav{
+    margin:10px 0;
+    margin-right: 0%;
+    padding:4px;
+    width: 100%;
+    height:1% auto;
+    background-color:gray;
+    position:fixed;
+}
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+li{
+    font-size:25px;
+    color:black;
+}
+nav ul li a:hoover{
+    text-decoration: none;
+}
+.active{
+    color: black;
+}
+.Home{
+    background-image: url("https://bit.ly/2XAOC19");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:20%;
+    
+}
+
+ #home{
+   text-align:center;
+   font-family:Algerian bold;
+   font-size: 40px;
+   padding-top: 150px;
+   text-transform:uppercase;
+
+ }  
+ #home p{
+     font-size:40px bold;
+     color:black;
+ }
+ #image{
+     display:flex;
+     flex-direction: row; 
+     flex-flow: wrap;
+     align-content: center;
+ }
+ #one{
+    border:grey solid;
+    margin:2%;
+    padding-bottom:1%;
+    border-style: outset;
+    border-radius:15px;
+    background-color:aqua;
+    align-content: center;
+ }
+#two{
+    border:grey solid;
+     margin:2%;
+     padding-bottom:1%;
+     border-style: outset;
+     border-radius:15px;
+     background-color:aqua;
+}
+#three{
+    border:grey solid;
+     margin:2%;
+     padding-bottom:1%;
+     border-style: outset;
+     border-radius:15px;
+     background-color:aqua;
+}
+#four{
+    border:grey solid;
+     margin:2%;
+     padding-bottom:1%;
+     border-style: outset;
+     border-radius:15px;
+     background-color:aqua;
+}
+ 
+ footer{
+     background-color:gray;
+     text-align: center;
+     font-size: 20px;
+     border-radius: 40px;
+ }
+h2{
+    text-align: center;
+    text-transform:uppercase;
+    background-color: grey;
+    padding:20px;
+    border-radius: 40px; 
+    color:blue;
+}
+#img2{
+    display:flex;
+    flex-direction:unset; 
+    flex-flow: wrap;
+    align-content: center;
+    padding-top:2px;
+}
+ #car{
+    border:grey solid;
+    margin:2%;
+    padding-bottom:1%;
+    border-style: outset;
+    border-radius:7px;
+    background-color:aqua;
+    align-content: center;
+    font-size: 20px;
+
+ }   
+ #plane{
+    border:grey solid;
+    margin:2%;
+    padding-bottom:2px;
+    border-style: outset;
+    border-radius:15px;
+    background-color:aqua;
+    align-content: center;
+    font-size: 20px;
+    
+ }
+ #bus{
+    border:grey solid;
+    margin:2%;
+    padding-bottom:1%;
+    border-style: outset;
+    border-radius:15px;
+    background-color:aqua;
+    align-content: center;
+    
+    font-size: 20px;
+ }
+ #Pics{
+     border:grey solid;
+    margin: 8%;
+ }
